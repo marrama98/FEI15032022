@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    height: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    height: 100px;
+    background-color: #F0A83E;
+    font-size: 1rem;
+    
+    
+}
+
+.topo{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 24px;
+    background-color: #222222;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.topo ul{
+    gap: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
