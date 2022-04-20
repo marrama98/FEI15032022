@@ -56,7 +56,7 @@ header{
 
 .header2 ul{
     font-size: 1.3rem;
-    gap: 25px;
+    gap: 1.8rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -75,6 +75,21 @@ header{
 
 main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    }
+
+
+main span{
+    margin-right: 10%;
+    
+}
+
+.imagem{
+    width: 100%;
     height: 409px;
     background-image: url(../img/main.png);
     background-repeat: no-repeat;
@@ -83,14 +98,16 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
-    justify-items: center;
+    justify-items:flex-end;
     justify-content: center;
-   
-    }
+}
 
-main span{
-    margin-right: 10%;
-    
+.texto{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    width: 40%;
 }
 
 .one{
@@ -102,19 +119,88 @@ main span{
 }
 
 .two{
-    margin-top: 1.5%;
+    margin-top: 4.5%;
     color:#3c2313;
     font-size: 1.6rem;
 }
 
 .three{
-    margin-top: 1.5%;
+    margin-top: 4.5%;
     color:white;
     background-color: #F0A83E;
     padding: 0.5%;
     font-size: 1.6rem;
     border-radius: 10px;
 }
+
+.destaque{
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.destaque h1{
+    color:#3c2313;
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
+.destaque ul{
+    list-style: none;
+    color: #666666;
+    display: flex;
+    gap:2rem;
+    font-size: 1.4rem;
+}
+
+.cards{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.span1{
+    color:#3c2313;
+    font-size: 1.2rem;
+
+}
+
+.span2{
+    color:#F0A83E;
+    font-size: 1.2rem;
+}
+
+.card1{
+    background-image: url(../img/churrasquito.png);
+    width: 26.6%;
+    text-align: end;
+}
+
+.card2{
+    background-image: url(../img/comedero.png);
+    width: 26.6%;
+}
+
+.card3{
+    background-image: url(../img/Huesito.png);
+    width: 26.6%;
+}
+
 
 
 
